@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Awesome Fonts Library -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- font-family: 'Lato', sans-serif; -->
+  <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- font-family: 'Abhaya Libre', serif; -->
+  <link href="https://fonts.cdnfonts.com/css/circular-std" rel="stylesheet">
+  <!-- font-family: 'Circular Std', sans-serif; -->
+  <style>
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .wrapper {
+      /* background-color: white; */
+      background-image: url("imgs/bg.png");
+      height: 600px;
+      display: flex;
+      position: relative;
+    }
+
+    .container {
+      /* background-color: #0e0e0e;
+      height: 497px; */
+    }
+
+    .book {
+      position: absolute;
+      height: 453px;
+      top: 85px;
+    }
+
+    .profile {
+      position: absolute;
+      top: 84px;
+      left: 60px;
+    }
+
+    .stars {
+      position: absolute;
+      top: 104px;
+      left: 440px;
+      font-size: 23px;
+      margin-right: 3px;
+      color: white;
+    }
+
+    .stars i {
+      margin-right: 3px;
+    }
+
+    .p {
+      font-family: 'Lato', sans-serif;
+      background: -webkit-linear-gradient(#a1874e, #a1874e, #ffff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      position: absolute;
+      top: 115px;
+      left: 440px;
+      font-size: 25.5px;
+    }
+
+    h1 {
+      font-family: 'Abhaya Libre', serif;
+      font-weight: 200;
+      font-size: 52px;
+      position: absolute;
+      top: 139px;
+      left: 440px;
+      color: white;
+    }
+
+    .p-2 {
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      position: absolute;
+      top: 230px;
+      left: 440px;
+      color: white;
+    }
+
+    .line {
+      background-color: white;
+      width: 360px;
+      height: 3px;
+      position: absolute;
+      top: 365px;
+      left: 440px;
+    }
+
+    h2 {
+      font-family: 'Circular Std', sans-serif;
+      text-transform: uppercase;
+      font-weight: 200;
+      font-size: 33.2px;
+      position: absolute;
+      top: 358px;
+      left: 440px;
+      color: white;
+      margin-left: 2px;
+    }
+
+    .info .p-3 {
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      font-size: 15.4px;
+      position: absolute;
+      top: 418px;
+      left: 440px;
+      color: white;
+    }
+
+    @media (min-width:768px) {
+      .wrapper {
+        width: 1200px;
+      }
+
+      .container {
+        width: 1200px;
+      }
+
+      .logo {
+        right: 28px;
+      }
+    }
+
+    @media (max-width:768px) {
+      .footer span:first-child {
+        font-size: 17px;
+      }
+
+      .footer span:last-child {
+        font-size: 20px;
+        font-family: 'Abhaya Libre', serif;
+        font-weight: 500;
+      }
+
+      /* .line {
+        position: absolute;
+        top: 560px;
+        right: 141px;
+        width: 15%;
+      } */
+    }
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <img src="imgs/image.png" alt="profile" class="profile">
+      <div class="stars">
+        <i class="fa-sharp fa-solid fa-star"></i>
+        <i class="fa-sharp fa-solid fa-star"></i>
+        <i class="fa-sharp fa-solid fa-star"></i>
+        <i class="fa-sharp fa-solid fa-star"></i>
+        <i class="fa-sharp fa-solid fa-star"></i>
+      </div>
+      <p class="p">YOUR OPINION MATTERS</p>
+      <h1>Share Your Experience With Me</h1>
+      <p class="p-2">
+        I would love to hear how I have helped you on your real estate journey. <br>
+        Your review helps me improve my services and makes others feel confident <br>when choosing to work with me.
+      </p>
+      <div class="line"></div>
+      <h2>Craig Nativig</h2>
+      <div class="info">
+        <p class="p-3">
+          Local Real Estate Expert <br>
+          Pacific Palisades, CA
+        </p>
+      </div>
+    </div>
+</body>
+
+</html>
